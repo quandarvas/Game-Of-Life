@@ -25,7 +25,7 @@ function changeGeneration(x, y) {
 function rndFill() {
     for (var i = 0; i < map.length; i++) {
         for (var j = 0; j < map[i].length; j++) {
-            map[i][j] = Math.random() > 0.8;
+            map[i][j] = Math.random() > 0.6;
         }
     }
 }
